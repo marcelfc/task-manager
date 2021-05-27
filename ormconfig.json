@@ -1,0 +1,13 @@
+{
+  "type": "postgres",
+  "host": "localhost",
+  "port": "5433",
+  "username": "postgres",
+  "password": "123456",
+  "database": "task_manager",
+  "entities": ["./src/**/entities/*.js"],
+  "migrations": ["./database/migrations/*.js"],
+  "cli": {
+    "migrationsDir": "./database/migrations"
+  }
+}
